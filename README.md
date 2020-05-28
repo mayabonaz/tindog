@@ -1,1 +1,1 @@
-TinDog Starting
+TinDog - responsive website project
