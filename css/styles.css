@@ -4,7 +4,7 @@ body {
 
 
 #title {
-  background-color: #ff4c68;
+  background-color: #ef8172;
   color: #fff;
 }
 
@@ -45,12 +45,19 @@ h1 {
   line-height: 1.5;
 }
 
+h2 {
+  font-family: Montserrat;
+  font-weight: 900;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
 /* Title Image */
 .title-img {
   width: 60%;
   margin-left: 15%;
   transform: rotate(25deg);
-  padding-left: 5%;
+  /* padding-left: 5%; */
 }
 
 /* Features section */
@@ -85,4 +92,33 @@ h1 {
 .feature-para {
   color: #8f8f8f;
   text-align: center;
+}
+
+/* Testimonials Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+
+.testimonial-img {
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.carousel-item {
+  padding: 7% 15%;
+}
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.press-img {
+  width: 15%;
+  margin: 20px 20px 50px;
 }
